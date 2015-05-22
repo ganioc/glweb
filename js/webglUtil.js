@@ -478,7 +478,7 @@
         function initTexture(){
             _neheTexture = gl.createTexture();
             //console.log(imgList);
-            _neheTexture.image = get_image('nehe');
+            _neheTexture.image = get_image('waterripple');
 
             gl.bindTexture(gl.TEXTURE_2D, _neheTexture);
             gl.pixelStorei( gl.UNPACK_FLIP_Y_WEBGL, true);
